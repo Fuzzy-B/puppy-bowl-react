@@ -28,9 +28,10 @@ export default function NewPlayerForm() {
         navigate('/')
     }
 
-    return (
+    return ( 
         <form onSubmit={handleSubmit}>
             <h1>Add Player</h1>
+            <section className="inputs">
             <label>
                 Name: <input name="name" value={name} onChange={(e)=> setName(e.target.value)} />
             </label>
@@ -54,7 +55,8 @@ export default function NewPlayerForm() {
                     <option value="0">Free-Agent</option>
                 </select>
             </label>
+            </section>
             <button type='submit'>Add Player</button>
-        </form>
+        </form> 
     )
 }
