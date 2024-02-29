@@ -9,7 +9,7 @@ export default function NewPlayerForm() {
     const [breed, setBreed] = useState('')
     const [imageUrl, setImageUrl] = useState('')
     const [status, setStatus] = useState('field')
-    const [teamId, setTeamId] = useState('682')
+    const [teamId, setTeamId] = useState('53') 
 
 
     async function handleSubmit(e) {
