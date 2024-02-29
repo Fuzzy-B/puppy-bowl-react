@@ -50,7 +50,7 @@ export default function NewPlayerForm() {
             <label>
             Team:
                 <select name="teamId" onChange={(e)=> setTeamId(e.target.value)}>
-                    <option value="682">Team Ruff</option>
+                    <option value="53">Team Ruff</option>
                     <option value="530">Team Fluff</option>
                     <option value="0">Free-Agent</option>
                 </select>

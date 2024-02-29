@@ -32,7 +32,7 @@ export default function SinglePlayer() {
     }
 
     let playerTeam = '' 
-        if (player.teamId == 682) {
+        if (player.teamId === 53) {
             playerTeam = 'Ruff'
         }
         if (player.teamId === 530) {
